@@ -11,17 +11,6 @@ spring:
   application:
     name: CONFIG-SERVER
 
-# eureka:
-#   instance:
-#     prefer-ip-address: true
-#   client:
-#     register-with-eureka: true
-#     fetch-registry: true
-#     registry-fetch-interval-seconds: 30
-#     refresh:
-#       enable: true
-#     service-url:
-#       defaultZone: https://serviceregitsry-production.up.railway.app/eureka
 
 
 
