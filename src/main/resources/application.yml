@@ -1,6 +1,6 @@
 server:
   port: 8085
-
+  
 spring:
   cloud:
     config:
@@ -10,7 +10,6 @@ spring:
           clone-on-start: true
   application:
     name: CONFIG-SERVER
-
 
 
 
