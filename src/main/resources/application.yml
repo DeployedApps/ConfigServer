@@ -1,5 +1,7 @@
 server:
   port: 8085
+
+spring:
   application:
     name: CONFIG-SERVER
 
@@ -7,7 +9,7 @@ eureka:
   instance:
     prefer-ip-address: true
 #    hostname: CONFIG-SERVER
-    appname: CONFIG-SERVER
+#    appname: CONFIG-SERVER
 
   client:
     register-with-eureka: true
