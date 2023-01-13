@@ -6,6 +6,9 @@ server:
 eureka:
   instance:
     prefer-ip-address: true
+#    hostname: CONFIG-SERVER
+    appname: CONFIG-SERVER
+
   client:
     register-with-eureka: true
     fetch-registry: true
